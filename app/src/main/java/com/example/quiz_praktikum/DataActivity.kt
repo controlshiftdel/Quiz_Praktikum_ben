@@ -42,6 +42,7 @@ class DataActivity : AppCompatActivity() {
             Toast.makeText( this, "Terkoreksi", Toast.LENGTH_LONG).show()
         }
 
+
     }
 
 }
