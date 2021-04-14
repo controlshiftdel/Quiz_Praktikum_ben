@@ -57,18 +57,18 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:textStyle="bold"
-            android:text="Jenis Kelamin"
+            android:text="Domisili"
             android:textSize="20dp"
             android:textColor="@color/purple_200"/>
 
         <TextView
-            android:id="@+id/tv_gender"
+            android:id="@+id/tv_domisili"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            tools:text="Jenis Kelamin"/>
+            tools:text="Domisili"/>
 
     </LinearLayout>
 

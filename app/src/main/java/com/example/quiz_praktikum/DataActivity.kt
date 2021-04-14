@@ -7,7 +7,7 @@ import android.widget.TextView
 class DataActivity : AppCompatActivity() {
     lateinit var tvNama: TextView
     lateinit var tvNim: TextView
-    lateinit var tvGender: TextView
+    lateinit var tvDomisili: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,15 +16,15 @@ class DataActivity : AppCompatActivity() {
         val bundle: Bundle? = intent.extras
         val nama = bundle?.getString("nama")
         val nim = bundle?.getString("nim")
-        val gender = bundle?.getString("gender")
+        val domisili = bundle?.getString("domisili")
 
         tvNama = findViewById(R.id.tv_nama)
         tvNim = findViewById(R.id.tv_nim)
-        tvGender = findViewById(R.id.tv_gender)
+        tvDomisili = findViewById(R.id.tv_domisili)
 
         tvNama.text = nama
         tvNim.text = nim
-        tvGender.text = gender
+        tvDomisili.text = domisili
 
     }
 }
